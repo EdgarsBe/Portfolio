@@ -1,0 +1,76 @@
+html{
+    font-family: Inter;
+    background-color: rgb(251, 251, 251);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 96pt;
+}
+
+header {
+
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.TopBar{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(244, 244, 244);
+    border: solid 1px rgb(160, 160, 160);
+}
+
+.InfoPanel{
+    margin-top: 10px;
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    border: solid 1px rgb(160, 160, 160);
+}
+
+#NavBar{
+    border-top: solid 1px rgb(160, 160, 160);
+    border-bottom:  solid 1px rgb(160, 160, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#NavBar .HeaderBtn {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+#NavBar .HeaderBtn li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
